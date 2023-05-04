@@ -19,74 +19,74 @@ import com.example.lunchtray.model.MenuItem.AccompanimentItem
 import com.example.lunchtray.model.MenuItem.EntreeItem
 import com.example.lunchtray.model.MenuItem.SideDishItem
 
-/**
- * Map of available menu items to be displayed in the menu fragments.
- */
+
 object DataSource {
 
     val entreeMenuItems = listOf(
         EntreeItem(
-            name = "Cauliflower",
-            description = "Whole cauliflower, brined, roasted, and deep fried",
-            price = 7.00,
+            name = "Pizza de Pepperoni",
+            description = "Little Ceasers",
+            price = 90.00,
         ),
         EntreeItem(
-            name = "Three Bean Chili",
-            description = "Black beans, red beans, kidney beans, slow cooked, topped with onion",
-            price = 4.00,
+            name = " 10 Alitas",
+            description = "Buffalo ",
+            price = 140.00,
         ),
         EntreeItem(
-            name = "Mushroom Pasta",
-            description = "Penne pasta, mushrooms, basil, with plum tomatoes cooked in garlic " +
-                    "and olive oil",
-            price = 5.50,
+            name = "Pizza de Queso",
+            description = "Little Ceasers",
+            price = 150.00,
         ),
         EntreeItem(
-            name = "Spicy Black Bean Skillet",
-            description = "Seasonal vegetables, black beans, house spice blend, served with " +
-                    "avocado and quick pickled onions",
-            price = 5.50,
+            name = "10 Alitas",
+            description = "BBQ",
+            price = 120.00,
         )
     )
 
     val sideDishMenuItems = listOf(
         SideDishItem(
-            name = "Summer Salad",
-            description = "Heirloom tomatoes, butter lettuce, peaches, avocado, balsamic dressing",
-            price = 2.50,
+            name = "Papas Fritas Bolzaza",
+            description ="Sabritas",
+            price = 60.00,
         ),
         SideDishItem(
-            name = "Butternut Squash Soup",
-            description = "Roasted butternut squash, roasted peppers, chili oil",
-            price = 3.00,
+            name = "Papas a la Francesa",
+            description = "Plato Grande",
+            price =50.00 ,
+        ),SideDishItem(
+            name = "Papas a la Francesa",
+            description = "Plato Chico",
+            price =45.00 ,
         ),
         SideDishItem(
-            name = "Spicy Potatoes",
-            description = "Marble potatoes, roasted, and fried in house spice blend",
-            price = 2.00,
+            name = "Papas Picosas",
+            description = "Papas marmoleadas, asadas y fritas en una mezcla de especias de la casa",
+            price = 80.00,
         ),
         SideDishItem(
-            name = "Coconut Rice",
-            description = "Rice, coconut milk, lime, and sugar",
-            price = 1.50,
+            name = "papas Asadas",
+            description = "Sal, Limon, y Chile",
+            price = 75.00,
         )
     )
 
     val accompanimentMenuItems = listOf(
         AccompanimentItem(
-            name = "Lunch Roll",
-            description = "Fresh baked roll made in house",
-            price = 0.50,
+            name = "Coca Cola",
+            description = "Bien Fria",
+            price = 25.00,
         ),
         AccompanimentItem(
-            name = "Mixed Berries",
-            description = "Strawberries, blueberries, raspberries, and huckleberries",
-            price = 1.00,
+            name = "Limonada",
+            description = "De limon natural y fresco",
+            price = 15.00,
         ),
         AccompanimentItem(
-            name = "Pickled Veggies",
-            description = "Pickled cucumbers and carrots, made in house",
-            price = 0.50,
+            name = "Agua Natural",
+            description = "Al tiempo",
+            price = 11.00,
         )
     )
 }
